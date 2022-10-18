@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="action_report_payroll_income"
+            string="Income Tax"
+            model="hr.payslip"
+            report_type="xlsx"
+            file="Income Tax"
+            name="payroll_report.report_payroll_income"
+        />
+    </data>
+    <data>
+        <report
+            id="action_report_payroll_pension"
+            string="Pension"
+            model="hr.payslip"
+            report_type="xlsx"
+            file="Pension"
+            name="payroll_report.report_payroll_pension"
+        />
+    </data>
+</odoo>

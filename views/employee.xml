@@ -1,0 +1,14 @@
+<openerp>
+  <data>
+    <record id="view_hr_employee_form_extend" model="ir.ui.view">
+      <field name="name">Employee Tin Number</field>
+      <field name="model">hr.employee</field>
+      <field name="inherit_id" ref="hr.view_employee_form"/>
+      <field name="arch" type="xml">
+        <field name="parent_id" position="after">
+          <field name="tin_number"/>
+        </field>
+      </field>
+    </record>
+  </data>
+</openerp>
